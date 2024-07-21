@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.9.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v1.8.0...protocol-v1.9.0) (2024-07-21)
+
+
+### Features
+
+* **protocol:** add EIP-2612 (permit extension) to bridged ERC20 tokens ([#17818](https://github.com/taikoxyz/taiko-mono/issues/17818)) ([185ef91](https://github.com/taikoxyz/taiko-mono/commit/185ef91d8debb0c3a88734f2552ca396c8d23a66))
+* **protocol:** add withdraw eth function to proverset ([#17800](https://github.com/taikoxyz/taiko-mono/issues/17800)) ([bb2abc5](https://github.com/taikoxyz/taiko-mono/commit/bb2abc510c98e62c89e0bfd9382c11720fb9edc7))
+* **protocol:** enhance nextTxId logics in  DelegateOwner ([#17718](https://github.com/taikoxyz/taiko-mono/issues/17718)) ([85b2cad](https://github.com/taikoxyz/taiko-mono/commit/85b2cad6216d93e3811bc3523ab8b3200cdfbdd3))
+* **protocol:** update Hekla deployment ([#17795](https://github.com/taikoxyz/taiko-mono/issues/17795)) ([cadaef8](https://github.com/taikoxyz/taiko-mono/commit/cadaef882c0751496809c88ee03ff818e49c4b4a))
+* **protocol:** update risc0 verifier contract to release-1.0 ([#17776](https://github.com/taikoxyz/taiko-mono/issues/17776)) ([2dd30ab](https://github.com/taikoxyz/taiko-mono/commit/2dd30ab2dc92b25105f19a4bcc1ddf7b40886039))
+
+
+### Bug Fixes
+
+* **protocol:** reduce MainnetTaikoL1 code size ([#17792](https://github.com/taikoxyz/taiko-mono/issues/17792)) ([45281b8](https://github.com/taikoxyz/taiko-mono/commit/45281b848f3ef3c45487bfcd1bfd38b382eff4d0))
+
+
+### Documentation
+
+* **docs-site:** address docs and scripts friction points ([#17815](https://github.com/taikoxyz/taiko-mono/issues/17815)) ([c74968b](https://github.com/taikoxyz/taiko-mono/commit/c74968b61828babf218fbc8e8ded001a853a93c3))
+* **protocol:** update L1 deployment ([#17789](https://github.com/taikoxyz/taiko-mono/issues/17789)) ([a889f1a](https://github.com/taikoxyz/taiko-mono/commit/a889f1a3e6c27b6758e873572c371ac9399a3d9a))
+* **protocol:** update L1 deployment ([#17804](https://github.com/taikoxyz/taiko-mono/issues/17804)) ([25ace9b](https://github.com/taikoxyz/taiko-mono/commit/25ace9bd2b18d91cbf165968cc27d34ccbd7067a))
+* **protocol:** update L1 deployment ([#17812](https://github.com/taikoxyz/taiko-mono/issues/17812)) ([5b43df1](https://github.com/taikoxyz/taiko-mono/commit/5b43df170b6f97cb89360e2d210d4a768d9247c3))
+* **protocol:** update L1 deployment ([#17817](https://github.com/taikoxyz/taiko-mono/issues/17817)) ([311c948](https://github.com/taikoxyz/taiko-mono/commit/311c948850e8b4d46218fd4aba92d03bc6349445))
+
+
+### Code Refactoring
+
+* **protocol:** add MainnetGuardianProver ([#17805](https://github.com/taikoxyz/taiko-mono/issues/17805)) ([6f68316](https://github.com/taikoxyz/taiko-mono/commit/6f68316e89373670cf2c58bde5e64de196b9c139))
+* **protocol:** add MainnetSgxVerifier ([#17803](https://github.com/taikoxyz/taiko-mono/issues/17803)) ([a4be247](https://github.com/taikoxyz/taiko-mono/commit/a4be247e181861300d79af6454b3fd3776100b48))
+* **protocol:** added cached version of the bridge and vaults ([#17801](https://github.com/taikoxyz/taiko-mono/issues/17801)) ([b70cc57](https://github.com/taikoxyz/taiko-mono/commit/b70cc57704d750081a62a7e8e44f68f32efdc4c1))
+* **protocol:** improve mainnet gas efficiency with addresses cached ([#17791](https://github.com/taikoxyz/taiko-mono/issues/17791)) ([b12227d](https://github.com/taikoxyz/taiko-mono/commit/b12227d4d2b2636fb80e04ee7ebc2dec3c17faa8))
+* **protocol:** improve MainnetSgxVerifier ([#17811](https://github.com/taikoxyz/taiko-mono/issues/17811)) ([4e7a421](https://github.com/taikoxyz/taiko-mono/commit/4e7a421967a4cea897f1ffbeeae254fbcad27117))
+* **protocol:** name address manager param clearer ([#17806](https://github.com/taikoxyz/taiko-mono/issues/17806)) ([1d5a6ff](https://github.com/taikoxyz/taiko-mono/commit/1d5a6ff191e8457ee12c96cb73c074560c556a2a))
+
 ## [1.8.0](https://github.com/taikoxyz/taiko-mono/compare/protocol-v1.7.0...protocol-v1.8.0) (2024-07-11)
 
 
