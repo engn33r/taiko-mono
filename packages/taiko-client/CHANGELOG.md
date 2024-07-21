@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.29.1](https://github.com/taikoxyz/taiko-mono/compare/taiko-client-v0.29.0...taiko-client-v0.29.1) (2024-07-21)
+
+
+### Bug Fixes
+
+* **taiko-client:** avoid seting nil value to `GuardianProverHeartbeater` ([#17802](https://github.com/taikoxyz/taiko-mono/issues/17802)) ([4076324](https://github.com/taikoxyz/taiko-mono/commit/40763241b5f2960f019d6be7e1040c65765f938a))
+
+
+### Code Refactoring
+
+* **taiko-client:** rm unused `L1_NODE_HTTP_ENDPOINT` ([#17768](https://github.com/taikoxyz/taiko-mono/issues/17768)) ([73c7aee](https://github.com/taikoxyz/taiko-mono/commit/73c7aeeffaffbf875af84e8be595af828877be2b))
+
 ## [0.29.0](https://github.com/taikoxyz/taiko-mono/compare/taiko-client-v0.28.0...taiko-client-v0.29.0) (2024-07-05)
 
 
